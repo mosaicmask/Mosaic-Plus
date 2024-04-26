@@ -1,0 +1,10 @@
+.m-icon {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        color: #f00;
+    }
+}

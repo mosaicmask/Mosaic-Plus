@@ -1,0 +1,45 @@
+{
+  "name": "mosaic-plus",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:mosaicPlus": "gulp -f packages/components/script/build/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "@types/gulp-autoprefixer": "^0.0.37",
+    "@types/gulp-less": "^0.0.36",
+    "@types/gulp-sass": "^5.0.4",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/runtime-core": "^3.4.25",
+    "@vue/shared": "^3.4.25",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "lodash": "^4.17.21",
+    "release-it": "^17.2.0",
+    "sass": "^1.75.0",
+    "scss": "^0.2.4",
+    "sucrase": "^3.35.0",
+    "typescript": "^5.2.2",
+    "unplugin-vue-define-options": "^1.4.3",
+    "vite": "^5.2.10",
+    "vite-plugin-dts": "1.4.1",
+    "vue": "^3.4.24",
+    "vue-tsc": "^2.0.6"
+  }
+}

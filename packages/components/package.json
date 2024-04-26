@@ -1,0 +1,18 @@
+{
+  "name": "@m-plus/components",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@m-plus/utils": "workspace:^"
+  }
+}
